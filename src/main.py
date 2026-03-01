@@ -33,6 +33,7 @@ app.add_exception_handler(ApplicationException, exception_handler)
 @app.get("/health")
 async def health_check():
     """Health check endpoint"""
+    print("Health check endpoint called")
     return {"status": "ok", "message": "Server is running"}
 
 
