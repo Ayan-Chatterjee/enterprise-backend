@@ -1,0 +1,1 @@
+"""Contact use cases package"""
